@@ -11,4 +11,5 @@ I have successfully used this code with the students account in my district. I p
 
 ### Additional information
 
-https://developers.google.com/drive/v2/reference/files/get
+- https://developers.google.com/drive/v2/reference/files/get
+- https://github.com/google/google-api-ruby-client
