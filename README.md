@@ -7,6 +7,12 @@ There are other methods to transfer files from Google Apps domain to another. Th
 
 I have successfully used this code with the students account in my district. I pulled 107,222 files from Google that totaled 57gigs on the local drive. Remember that Google does not report the actually size of data stored on Google Drive because it does not report documents created in thier Google Docs format.  
 
+## Details about code
+Code consists of terminal scripts and a basic live feed web page .
+
+## Installation
+    % gem install bundler
+    % bundle install
 
 
 ### Additional information
