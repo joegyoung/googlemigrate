@@ -18,6 +18,22 @@ Code consists of terminal scripts and a basic live feed web page .
     % cd ../
     % cp config.yml-sample config.yml
 
+Edit config.yml
+
+    % ---
+    % savedirectory: "/Volume/Backup/Students"
+    % googleshareuser: "googledrive@example.com"
+    % enable_websocket: true
+    %
+    % googleapi:
+    %   serviceaccountemail: '<tagcode>@developer.gserviceaccount.com'
+    %   serviceaccountpkcs12filepath: 'oogleAPI.p12'
+    %
+    % website:
+    %   host: googlemigrate.local
+
+
+
 
 ### Additional information
 
