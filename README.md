@@ -13,6 +13,10 @@ Code consists of terminal scripts and a basic live feed web page .
 ## Installation
     % gem install bundler
     % bundle install
+    % cd webgui 
+    % bundle install
+    % cd ../
+    % cp config.yml-sample config.yml
 
 
 ### Additional information
