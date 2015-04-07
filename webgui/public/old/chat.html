@@ -1,0 +1,74 @@
+<html><head>
+    <meta charset="UTF-8" content="text/html" http-equiv="Content-Type">
+    <title>Google Docs Migration GUI</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script>
+      var channel = "main";
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="http://joeyoung.local:5000/rocketio/rocketio.js" type="text/javascript"></script>
+    <script src="/js/chat.js" type="text/javascript"></script>
+<style>
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+.pagewidth {
+  width: 85%;
+}
+.line-right {
+  margin-right: -1px;
+  border-right: 1px solid #eee;
+}
+
+#current .alert {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+</style>
+
+
+  </head>
+  <body>
+    <div id="content" class="container center pagewidth">
+      <div id="header">
+        <h1>Google Docs Migration GUI</h1>
+        <span id="type"></span>
+      </div>
+       <div class="h2" id="total"></div>
+      <div class="row ">
+        <div class="col-md-8 line-right">
+          <div id="main" >
+            <div id="chat">
+              <h3>
+                Logs
+                </h3>
+             
+              <ul id="timeline"></ul>
+                      </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+                <h3>
+                Alerts
+                </h3>
+              <ul id="current" class="list-unstyled">
+
+<li class="alert alert-success" role="alert">...</li>
+<li class="alert alert-info" role="alert">email address</li>
+
+              </ul>
+        </div>
+      </div>
+
+      <hr>
+      <div id="footer">
+        Google Docs Migration GUI -
+        <a href="http://nope">http://nope</a>
+      </div>
+    </div>
+  
+
+</body></html>

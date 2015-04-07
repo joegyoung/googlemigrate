@@ -1,0 +1,12 @@
+---
+savedirectory: "/Volume/Backup/Students"
+googleshareuser: "googledrive@example.com"
+enable_websocket: true
+
+
+googleapi:
+  serviceaccountemail: '<tagcode>@developer.gserviceaccount.com'
+  serviceaccountpkcs12filepath: 'oogleAPI.p12'
+
+website:
+  host: googlemigrate.local
